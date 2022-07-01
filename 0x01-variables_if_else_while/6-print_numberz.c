@@ -1,20 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - prints the numbers since 0 to 9
- * 
- * Return: Always (Success)
+ * main - program that prints all single digit numbers of base 10 starting from
+ * You are not allowed to use any variable of type char9
+ * You can only use the putchar function
+ * Return: 0
  */
 
 int main(void)
 {
-	int n;
-       
-	for (n = '0'; n <= '9'; n++)
+	int n = 48;
+
+	while (n <= 57)
 	{
 		putchar(n);
+		n += 1;
 	}
-	putchar("\n");
-
+	printf("\n");
 	return (0);
 }
