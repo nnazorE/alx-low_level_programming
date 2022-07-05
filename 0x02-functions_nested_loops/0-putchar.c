@@ -4,7 +4,7 @@
  * main - Check descriptiom
  * Description: It prints _putchar, following by a new line.
  *
- * Return: Always 0
+ * Return: Always| 0.
  */
 
 int main(void)
