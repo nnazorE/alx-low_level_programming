@@ -1,12 +1,11 @@
 #include "main.h"
-int print_sign(int n);
 
 /**
  * print_sign - Entry function
  * @n: character for sign
  * Return: Always 0.
  */
-int print_sign(int n)
+int print_sign(int n);
 {
 	if (n < 0)
 	{
