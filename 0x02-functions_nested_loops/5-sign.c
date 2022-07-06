@@ -1,4 +1,6 @@
 #include "main.h"
+int print_sign(int n);
+
 /**
  * print_sign - Entry function
  * @n: character for sign
