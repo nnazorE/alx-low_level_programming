@@ -1,5 +1,9 @@
 #include <stdio.h>
+<<<<<<< HEAD
 #include "holberton.h"
+=======
+#include "main.h"
+>>>>>>> 99308fe635467846186ed03f63b8fc45b60fbb80
 
 /**
  * print_remaining_days - takes a date and prints how many days are
@@ -12,6 +16,7 @@
 
 void print_remaining_days(int month, int day, int year)
 {
+<<<<<<< HEAD
 	if ((year % 4 == 0 && !(year % 100 == 0)) || year % 400 == 0)
 	{
 		if (month > 2 && day >= 60)
@@ -19,6 +24,14 @@ void print_remaining_days(int month, int day, int year)
 			day++;
 		}
 
+=======
+	if ((year % 4 == 0) && (year % 100 != 0 || year % 400 == 0))
+	{
+		if (month >= 3 && day >= 60)
+		{
+			day++;
+		}
+>>>>>>> 99308fe635467846186ed03f63b8fc45b60fbb80
 		printf("Day of the year: %d\n", day);
 		printf("Remaining days: %d\n", 366 - day);
 	}
@@ -35,3 +48,7 @@ void print_remaining_days(int month, int day, int year)
 		}
 	}
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 99308fe635467846186ed03f63b8fc45b60fbb80
